@@ -18,13 +18,13 @@ public:
 
     List();
     ~List();
-    void push_back(T data);  // adds element in the end of list
+    void push_back(T data);  // adds item in the end of list
     int size() { return size_; }  // returns size of the list
     T &operator[](int index);  // [] operator overloading
-    void pop_front();  // deletes first element of the list
+    void pop_front();  // deletes first item of the list
     void clear();  // clearing of the list
-    void push_front(T data);  // adds element in beginning of the list
-    void insert(T data, int index);  // inserts one element at defined index
-    void remove(int index);  // removes element at index
-    void pop_back();  // removes last element
+    void push_front(T data);  // adds item in beginning of the list
+    void insert(T data, int index);  // inserts one item at defined index
+    void remove(int index);  // removes item at index
+    void pop_back();  // removes last item
 };
