@@ -71,7 +71,7 @@ void List<T>::insert(T data, int index) {
         for (int i = 0; i < index - 1; ++i) {
             previous = previous->pNext;
         }
-        previous->pNext = new Node<T>(data, previous->pNext);;
+        previous->pNext = new Node<T>(data, previous->pNext);
         size_++;
     }
 }
